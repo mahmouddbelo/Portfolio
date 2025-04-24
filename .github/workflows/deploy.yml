@@ -29,4 +29,7 @@ jobs:
         with:
           folder: dist
           branch: gh-pages
-          clean: true 
+          clean: true
+          clean-exclude: |
+            .git
+            .gitignore 
