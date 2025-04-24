@@ -25,7 +25,7 @@ const Hero = () => {
                 Contact Me
               </a>
               <a
-                href={`${process.env.PUBLIC_URL}/Mahmoud_Abdelaal_CV.pdf`}
+                href="https://mahmouddbelo.github.io/Portfolio/Mahmoud_Abdelaal_CV.pdf"
                 download="Mahmoud_Abdelaal_CV.pdf"
                 className="px-6 py-3 bg-gray-800 hover:bg-gray-700 text-white rounded-md transition-colors duration-200 font-medium flex items-center"
               >
@@ -81,7 +81,7 @@ const Hero = () => {
           <div className="md:w-1/2 flex justify-center">
             <div className="w-64 h-64 md:w-96 md:h-96 rounded-full overflow-hidden border-4 border-blue-400/20 shadow-lg shadow-blue-500/20 transition-transform duration-300 hover:scale-105">
               <img
-                src={`${process.env.PUBLIC_URL}/mahmoud.jpg`}
+                src="https://mahmouddbelo.github.io/Portfolio/mahmoud.jpg"
                 alt="Mahmoud Abdelaal"
                 className="w-full h-full object-cover"
               />
