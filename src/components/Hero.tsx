@@ -81,7 +81,7 @@ const Hero = () => {
           <div className="md:w-1/2 flex justify-center">
             <div className="w-64 h-64 md:w-96 md:h-96 rounded-full overflow-hidden border-4 border-blue-400/20 shadow-lg shadow-blue-500/20 transition-transform duration-300 hover:scale-105">
               <img
-                src="/Portfolio/mahmoud.jpg"
+                src="mahmoud.jpg"
                 alt="Mahmoud Abdelaal"
                 className="w-full h-full object-cover"
               />
