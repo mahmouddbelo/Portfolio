@@ -10,7 +10,18 @@ export default defineConfig({
     sourcemap: true,
     rollupOptions: {
       output: {
-        manualChunks: undefined
+        manualChunks: undefined,
+        assetFileNames: (assetInfo) => {
+          if (assetInfo.name) {
+            if (/\.(gif|jpe?g|png|svg)$/.test(assetInfo.name)) {
+              return 'assets/images/[name]-[hash][extname]';
+            }
+            if (/\.(pdf)$/.test(assetInfo.name)) {
+              return 'assets/[name]-[hash][extname]';
+            }
+          }
+          return 'assets/[name]-[hash][extname]';
+        }
       }
     }
   },
