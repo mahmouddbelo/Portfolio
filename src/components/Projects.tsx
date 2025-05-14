@@ -7,12 +7,21 @@ const Projects = () => {
   
   const projects = [
     {
+      title: 'Personal Portfolio Website',
+      description: 'Developed a modern, responsive portfolio website using React and TypeScript. Features include dark mode, interactive UI components, project filtering, and particle background effects.',
+      image: 'https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      technologies: ['React', 'TypeScript', 'Tailwind CSS', 'Vite', 'Responsive Design'],
+      category: 'web-dev',
+      github: 'https://github.com/mahmouddbelo/Portfolio',
+      live: 'https://mahmouddbelo.github.io/Portfolio'
+    },
+    {
       title: 'RAG System with Document Processing',
       description: 'Built a professional RAG system that processes various document formats (PDF, DOCX, PPTX) and answers questions using natural language. Features include document upload, URL processing, and a modern dark UI design.',
       image: 'https://miro.medium.com/v2/resize:fit:1100/format:webp/1*NRriz78t4fOD4tNAN_c9NA.png',
       technologies: ['Python', 'Flask', 'LangChain', 'Bootstrap 5', 'JavaScript', 'Document Processing'],
       category: 'nlp',
-      github: 'https://github.com/mahmouddbelo/rag-system',
+      github: 'https://github.com/mahmouddbelo/RAGMASTERR',
       live: ''
     },
     {
@@ -21,7 +30,7 @@ const Projects = () => {
       image: 'https://images.pexels.com/photos/3779709/pexels-photo-3779709.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       technologies: ['Python', 'TensorFlow', 'OpenCV', 'Flask', 'Deep Learning', 'Medical Imaging'],
       category: 'computer-vision',
-      github: 'https://github.com/mahmouddbelo/teeth-disease-detector',
+      github: 'https://github.com/mahmouddbelo/TeethDiseaseDetector',
       live: ''
     },
     {
@@ -100,6 +109,16 @@ const Projects = () => {
               }`}
             >
               All Projects
+            </button>
+            <button
+              onClick={() => setActiveTab('web-dev')}
+              className={`px-6 py-2 text-sm font-medium rounded-md transition-all duration-300 ${
+                activeTab === 'web-dev' 
+                  ? 'bg-blue-600 text-white shadow-lg' 
+                  : 'text-gray-300 hover:text-white hover:bg-gray-800/50'
+              }`}
+            >
+              Web Dev
             </button>
             <button
               onClick={() => setActiveTab('computer-vision')}
