@@ -6,15 +6,15 @@ const Projects = () => {
   const [activeTab, setActiveTab] = useState('all');
   
   const projects = [
-    {
-      title: 'Personal Portfolio Website',
-      description: 'Developed a modern, responsive portfolio website using React and TypeScript. Features include dark mode, interactive UI components, project filtering, and particle background effects.',
-      image: 'https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      technologies: ['React', 'TypeScript', 'Tailwind CSS', 'Vite', 'Responsive Design'],
-      category: 'web-dev',
-      github: 'https://github.com/mahmouddbelo/Portfolio',
-      live: 'https://mahmouddbelo.github.io/Portfolio'
-    },
+    // {
+    //   title: 'Personal Portfolio Website',
+    //   description: 'Developed a modern, responsive portfolio website using React and TypeScript. Features include dark mode, interactive UI components, project filtering, and particle background effects.',
+    //   image: 'https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    //   technologies: ['React', 'TypeScript', 'Tailwind CSS', 'Vite', 'Responsive Design'],
+    //   category: 'web-dev',
+    //   github: 'https://github.com/mahmouddbelo/Portfolio',
+    //   live: 'https://mahmouddbelo.github.io/Portfolio'
+    // },
     {
       title: 'RAG System with Document Processing',
       description: 'Built a professional RAG system that processes various document formats (PDF, DOCX, PPTX) and answers questions using natural language. Features include document upload, URL processing, and a modern dark UI design.',
