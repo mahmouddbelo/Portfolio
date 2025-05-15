@@ -1,4 +1,4 @@
-# Mahmoud Belo - Portfolio
+# Portfolio
 
 A modern, responsive portfolio website built with React, TypeScript, and Tailwind CSS.
 
@@ -21,10 +21,6 @@ A modern, responsive portfolio website built with React, TypeScript, and Tailwin
 ## 🚀 Live Demo
 
 Visit the live portfolio: [https://mahmouddbelo.github.io/Portfolio](https://mahmouddbelo.github.io/Portfolio)
-
-## 📷 Screenshots
-
-![Portfolio Screenshot](https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)
 
 ## 🧰 Running Locally
 
